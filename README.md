@@ -60,3 +60,23 @@ The socket module in Python provides low-level networking interfaces. It allows 
 - `connect(address)` → Connects a client socket to a server.
 - `send(data) / recv(buffer_size)` → Send and receive data.
 - `close()` → Closes the socket.
+
+### 📌 Example
+```python
+import socket
+
+# Create a TCP/IP socket
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+
+# Connect to server
+s.connect(("localhost", 12345))
+
+# Send data
+s.send(b"Hello, Server!")
+
+# Receive response
+print(s.recv(1024).decode())
+
+# Close connection
+s.close()
+```
