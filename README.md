@@ -49,5 +49,5 @@ The socket module in Python provides low-level networking interfaces. It allows 
 - <strong>Server Socket:</strong> Listens for incoming connections (`bind`, `listen`, `accept`).
 - <strong>Client Socket:</strong> Initiates a connection to the server (`connect`).
 - <strong>TCP vs UDP:</strong>
-        - <strong>TCP (SOCK_STREAM) →</strong> Reliable, connection-oriented communication.
-        - <strong>UDP (SOCK_DGRAM) →</strong> Faster, connectionless communication.
+  - <strong>TCP (SOCK_STREAM) →</strong> Reliable, connection-oriented communication.
+  - <strong>UDP (SOCK_DGRAM) →</strong> Faster, connectionless communication.
