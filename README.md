@@ -81,10 +81,17 @@ print(s.recv(1024).decode())
 s.close()
 ```
 
----
 ### 🧠 Why socket Matters
 - Forms the backbone of network programming in Python.
 - Used in chat apps, web servers, IoT devices, and more.
 - Provides flexibility to build custom communication protocols.
+
+---
+
+## 🔮 Future Improvements
+- Add private messaging between users.
+- GUI using Tkinter or PyQt.
+- Encryption for secure communication.
+- Persistent chat logs
 
 ---
