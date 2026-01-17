@@ -1,6 +1,8 @@
 # 🖥️ Multiple Client Chat Application (Python)  
 
-![Python](https://img.shields.io/badge/Python-3.x-blue)   ![Socket](https://img.shields.io/badge/Socket-TCP%2FUDP-green)
+![Python](https://img.shields.io/badge/Python-3.x-blue)  
+
+![Socket](https://img.shields.io/badge/Socket-TCP%2FUDP-green)  
 
 A simple socket-based chat application that supports multiple clients connecting to a server.
 
